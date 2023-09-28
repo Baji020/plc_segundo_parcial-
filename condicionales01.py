@@ -4,4 +4,4 @@ if x > 0:
 elif x == 0:
   print (x, "Tu numero es cero?")
 else:
-  print(×, "Este numero es negativo xd")
+  print(x, "Este numero es negativo xd")
