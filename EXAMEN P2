@@ -1,0 +1,24 @@
+#P2 E1 Examen Segundo Parcial
+
+print("Cuida a la planta¡")
+t = float(input("Dame la temperatura del entorno en celsius: "))
+he = float(input("Dame la humedad del entorno: "))
+ds = input("¿Que dia de la semana es hoy? ").lower()
+
+if t < 20:
+  print("Tienes que llevara adentro de la casa ")
+elif t < 25:
+  print("Esta en buenas condiciones")
+elif t > 25: 
+  print("Llevar dentro de la casa y encender el ventilador ")
+
+if ds == "martes" or ds == "jueves" or ds == "sabado": 
+  print("Tienes que regar a Rrubi")
+
+
+if he < 20: 
+  print("Pero por culpa de la baja humedad la tienes que regar")
+elif he <= 25:
+  print("La humedad es adecuada")
+elif he > 22 and ds == "lunes" or ds == "miercoles" or ds == "viernes" or ds == "domingo":
+  print("No es necesario regar a Rubi")
