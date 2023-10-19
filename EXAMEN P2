@@ -1,4 +1,5 @@
 #P2 E1 Examen Segundo Parcial
+#https://replit.com/join/acozkrihkm-danielgonzal232
 
 print("Cuida a la planta¡")
 t = float(input("Dame la temperatura del entorno en celsius: "))
